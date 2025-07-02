@@ -14,15 +14,22 @@ Esse foi um projeto desenvolvido por discentes do curso de *Engenharia da Comput
 -  :ice_cube:  *[Eduardo Asfuri Carvalho](https://github.com/Asfuri)*
 -  :fire:  *[Lucas Henrique Vieira da Silva](https://github.com/hvslucas)*
 
-<br>
-<br>
-<br>
-<br>
-<br>
-
 [![cachorro-com-febre-_2_](https://github.com/user-attachments/assets/90730a3e-68d8-423f-a419-95b36df38b5d)](#thermometerrock-termômetro-rudimentar)
 
 ## :dart: Objetivo
 
-O projeto tem como objetivo desenvolver um sistema que consiga proporcionar ao usuário, de maneira eficiente, a partir de entradas no terminal e utilizando C++, a possibilidade de gerir dados de uma competição olímpica. O processo de gerenciamento do registro das pessoas é completamente autônomo por parte do usuário, enquanto o gerenciamento dos dados da competição é parcial, permitindo a inserção dos dados somente quando não houverem dados registrados. O sistema tem requisitos de desenvolvimento estabelecidos pelas especificações determinadas pelo docente, sendo eles[^1][^2]:
+Este projeto tem como objetivo construir um termômetro rudimentar utilizando a leitura da tensão de um diodo. A proposta é explorar a característica da tensão do diodo, que varia de forma aproximadamente linear com a temperatura, permitindo estimar a temperatura ambiente por meio da medição da tensão. O circuito foi proposto pelo docente para a implementação do código e das medições para a formulação da função temperatura/tensão.
+
+## :ice_cube: Circuito
+
+O circuito é bem simples, uma fonte de 5 V (ou qualquer outro valor permitido pela documentação dos componentes, de maneira que não modifique a tensão de passagem de corrente do diodo), um resistor de 1 KΩ e um diodo (o indicado foi o 1N4007, com tensão de 0.7 V em 25° C)
+
+![Captura de tela 2025-07-01 212355](https://github.com/user-attachments/assets/465bfb04-5efd-4c8e-bb27-1bad10451208)
+
+Ao colocar o arduino para medir a tensão e um display para o termômetro ficar autonomo de uma conexão USB:
+
+![image](https://github.com/user-attachments/assets/c3b265f5-f05f-4036-b20a-637d4db7b42e)
+
+Bem... O resto o código explica, um dia talvez eu termine esse repositório. Pfv me cobre se você precisar disso!
+
 
