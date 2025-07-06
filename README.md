@@ -18,7 +18,13 @@ Esse foi um projeto desenvolvido por discentes do curso de *Engenharia da Comput
 
 ## :dart: Objetivo
 
-Este projeto tem como objetivo construir um termômetro rudimentar utilizando a leitura da tensão de um diodo. A proposta é explorar a característica da tensão do diodo, que varia de forma aproximadamente linear com a temperatura, permitindo estimar a temperatura ambiente por meio da medição da tensão. O circuito foi proposto pelo docente para a implementação do código e das medições para a formulação da função temperatura/tensão.
+Este projeto tem como objetivo construir um termômetro rudimentar utilizando a leitura da tensão em um diodo. A proposta é explorar a característica da tensão do diodo, que varia de forma aproximadamente linear com a temperatura, permitindo estimar a temperatura ambiente por meio dessa medição. O circuito foi proposto pelo docente, visando a implementação do código e a realização das medições necessárias para a formulação da função temperatura/tensão.
+
+### :chart_with_upwards_trend: Resultados
+
+Utilizando uma fonte de tensão (bateria DC), um resistor de 1 kΩ e um diodo retificador 1N4007, observamos algumas situações distintas. As diferenças ocorreram, principalmente, pela ausência de um medidor de temperatura em certas medições e, em outras, pela variação da tensão no diodo para valores fora do intervalo esperado. Ainda assim, considerando alguns valores de referência, foi possível obter funções lineares que, de fato, correspondiam aos valores esperados. Os resultados podem ser encontrados na planilha disponível no repositório:
+
+## 	[:open_file_folder: Planilha](medicoes_diodos.xlsx)
 
 ## :ice_cube: Circuito
 
