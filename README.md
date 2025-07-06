@@ -26,16 +26,19 @@ Utilizando uma fonte de tensão (bateria DC), um resistor de 1 kΩ e um diodo re
 
 ### 	[:open_file_folder: Planilha](medicoes_diodos.xlsx)
 
+obs.: Recomendamos o uso da função ```float diodeTemp = (tensaoLED - 0.750)/(-0.002);``` por sua compatibilidade com a maioria dos diodos de silício desse tipo. Trata-se de uma função idealizada, que desconsidera algumas condições para adotar coeficientes angular e linear arredondados.
+
 ## :ice_cube: Circuito
 
 O circuito é bem simples, uma fonte de 5 V (ou qualquer outro valor permitido pela documentação dos componentes, de maneira que não modifique a tensão de passagem de corrente do diodo), um resistor de 1 KΩ e um diodo (o indicado foi o 1N4007, com tensão de 0.7 V em 25° C)
 
 ![Captura de tela 2025-07-01 212355](https://github.com/user-attachments/assets/465bfb04-5efd-4c8e-bb27-1bad10451208)
 
-Ao colocar o arduino para medir a tensão e um display para o termômetro ficar autonomo de uma conexão USB:
+Ao conectar o Arduino para medir a tensão e adicionar um display, o termômetro passou a funcionar de forma autônoma, sem depender de uma conexão USB:
 
-![image](https://github.com/user-attachments/assets/c3b265f5-f05f-4036-b20a-637d4db7b42e)
+![image](https://github.com/user-attachments/assets/4b167a95-de25-4b95-8089-86cca6a04311)
 
-Bem... O resto o código explica, um dia talvez eu termine esse repositório. Pfv me cobre se você precisar disso!
+
+
 
 
