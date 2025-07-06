@@ -24,7 +24,7 @@ Este projeto tem como objetivo construir um termômetro rudimentar utilizando a 
 
 Utilizando uma fonte de tensão (bateria DC), um resistor de 1 kΩ e um diodo retificador 1N4007, observamos algumas situações distintas. As diferenças ocorreram, principalmente, pela ausência de um medidor de temperatura em certas medições e, em outras, pela variação da tensão no diodo para valores fora do intervalo esperado. Ainda assim, considerando alguns valores de referência, foi possível obter funções lineares que, de fato, correspondiam aos valores esperados. Os resultados podem ser encontrados na planilha disponível no repositório:
 
-## 	[:open_file_folder: Planilha](medicoes_diodos.xlsx)
+### 	[:open_file_folder: Planilha](medicoes_diodos.xlsx)
 
 ## :ice_cube: Circuito
 
