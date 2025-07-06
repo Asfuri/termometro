@@ -38,6 +38,44 @@ Ao conectar o Arduino para medir a tensão e adicionar um display, o termômetro
 
 ![image](https://github.com/user-attachments/assets/4b167a95-de25-4b95-8089-86cca6a04311)
 
+**Atenção:** Tenha sempre cuidado ao manusear dispositivos elétricos e eletrônicos. Em caso de dúvida, não execute o projeto sem as devidas precauções. A responsabilidade por eventuais danos a componentes durante a reprodução do projeto é inteiramente do usuário.
+
+## :fire: Como rodar
+
+***Requisitos***
+- Arduino IDE (recomendado)  
+  > Baixe em: [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)  
+- Placa Arduino (ex: Uno R3)
+- Cabo USB para conexão com a placa
+- Biblioteca: `LiquidCrystal_I2C.h`  
+  > Instale via: **Arduino IDE → Ferramentas → Gerenciar Bibliotecas...**  
+  > Alternativa compatível: `Adafruit_LiquidCrystal.h`
+- Caso deseje compilar e carregar via terminal: `arduino-cli`  
+  > Instruções: [https://arduino.github.io/arduino-cli](https://arduino.github.io/arduino-cli)
+
+[**Atenção:** Lembre de baixar o projeto e extraí-lo devidamente do `.zip`.](#thermometerrock-termômetro-rudimentar)
+
+---
+
+### :thermometer: Utilizando a Arduino IDE
+
+1. Abra a **Arduino IDE**.
+2. Vá em `Arquivo > Abrir...` e selecione o arquivo `.ino` localizado na pasta do projeto.
+3. Conecte sua placa Arduino via USB.
+4. Vá em `Ferramentas > Placa` e selecione a placa correta (ex: **Arduino Uno**).
+5. Vá em `Ferramentas > Porta` e selecione a porta serial da sua placa.
+6. Clique no botão **Upload** (`→`) ou pressione `Ctrl + U`.
+
+---
+
+### :rock: Alternativa com arduino-cli (opcional)
+
+Após configurar a ferramenta e as placas com `arduino-cli`:
+
+```sh
+cd /path/to/Projeto-Arduino
+arduino-cli compile --fqbn arduino:avr:uno
+arduino-cli upload -p COM3 --fqbn arduino:avr:uno
 
 
 
