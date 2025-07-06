@@ -36,13 +36,13 @@ void loop() {
   float tensaoAnodo = leituraAnodo * (5.0 / 1023.0);
   float tensaoCatodo = leituraCatodo * (5.0 / 1023.0);
 
-  float tensaoLED = tensaoAnodo - tensaoCatodo;
+  float tensaoDiodo = tensaoAnodo - tensaoCatodo;
   
-  float diodeTemp = (tensaoLED - 0.750)/(-0.002);
+  float diodeTemp = (tensaoDiodo - 0.750)/(-0.002);
 
   // Exibe no Serial
   Serial.print("Tensão no diodo: ");
-  Serial.print(tensaoLED, 3);
+  Serial.print(tensaoDiodo, 3);
   Serial.println(" V");
 
   // Exibe no LCD
@@ -50,7 +50,7 @@ void loop() {
   lcd.setCursor(0, 0);
   lcd.print("Tensao:");
   lcd.setCursor(0, 1);
-  lcd.print(tensaoLED, 3); // 2 casas decimais
+  lcd.print(tensaoDiodo, 3); // 2 casas decimais
   lcd.print(" V");
 
   delay(3000);
