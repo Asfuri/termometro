@@ -32,7 +32,7 @@ obs.: Recomendamos o uso da função ```float diodeTemp = (tensaoLED - 0.750)/(-
 
 O circuito é bem simples, uma fonte de 5 V (ou qualquer outro valor permitido pela documentação dos componentes, de maneira que não modifique a tensão de passagem de corrente do diodo), um resistor de 1 KΩ e um diodo (o indicado foi o 1N4007, com tensão de 0.7 V em 25° C)
 
-![Captura de tela 2025-07-01 212355](https://github.com/user-attachments/assets/465bfb04-5efd-4c8e-bb27-1bad10451208)
+![Captura de tela 2025-07-07 202049](https://github.com/user-attachments/assets/9960b5a2-1c0d-4c4e-a55f-fb893e74a39f)
 
 Ao conectar o Arduino para medir a tensão e adicionar um display, o termômetro passou a funcionar de forma autônoma, sem depender de uma conexão USB:
 
